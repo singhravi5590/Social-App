@@ -1,0 +1,87 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.register{
+    height: 100vh;
+    background-color: rgb(193, 190, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cards{
+    display: flex;
+    width: 50%;
+    background-color: white;
+    min-height: 600px;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.left{
+    flex: 1;
+    background-image: linear-gradient(rgba(39, 11, 96, 0.5), rgba(39, 11, 96, 0.5)),   url("https://images.unsplash.com/photo-1508145052393-b0328a3ab751?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDEwfHx8ZW58MHx8fHx8");
+    background-size: cover;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    color: white;
+}
+
+.left h1{
+    font-size: 100px;
+    line-height: 100px;
+}
+
+.left span{
+    font-size: 14px;
+}
+
+.left button{
+    width: 50%;
+    padding: 10px;
+    border: none;
+    color: white;
+    background-color: rebeccapurple;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.right{
+    flex : 1;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    justify-content: center;
+}
+
+.right h1 {
+    color: #555;
+}
+
+.right form {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.right form input {
+    border: none;
+    border-bottom: 1px solid lightgray;
+    padding: 20px 10px;
+}
+
+.right form button {
+    width: 50%;
+    padding: 10px;
+    border: none;
+    background-color: #938aef;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}

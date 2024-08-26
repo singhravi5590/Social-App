@@ -1,0 +1,86 @@
+.rightbar{
+    flex: 3;
+    position: sticky;
+    top: 10px;
+    height: calc(100vh - 50px);
+    overflow: scroll;
+}
+
+.rightbar::-webkit-scrollbar{
+    display: none;
+}
+
+.rightbar-container{
+    padding: 20px;
+}
+
+.rightbar-item{
+    -webkit-box-shadow: 5px 7px 5px 1px rgba(198,242,233,1);
+    -moz-box-shadow: 5px 7px 5px 1px rgba(198,242,233,1);
+    box-shadow: 5px 7px 5px 1px rgba(198,242,233,1);
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.rightbar-user{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+
+.user-info{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    position: relative;
+}
+
+.online{
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: limegreen;
+    position: absolute;
+    top: 0;
+    left: 28px;
+}
+
+.user-info img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.user-info span{
+    font-weight: 600;
+    font-size: 17px;
+    color: black;
+}
+
+p {
+    color: gray;
+}
+
+.buttons{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.buttons button{
+    border: none;
+    padding: 5px;
+    color: white;
+    cursor: pointer;
+}
+
+.buttons button:first-child{
+    background-color: #5271ff;
+}
+
+.buttons button:last-child{
+    background-color: #f0544f;
+}
